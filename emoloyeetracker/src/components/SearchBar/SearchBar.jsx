@@ -66,7 +66,7 @@ class SearchBar extends Component {
                     }`}
                   >
                     <input
-                      type="radio"
+                      type="checkbox" defaultChecked
                       name="sortOrder"
                       id="asc"
                       value="asc"
@@ -83,7 +83,7 @@ class SearchBar extends Component {
                     }`}
                   >
                     <input
-                      type="radio"
+                      type="checkbox"
                       name="sortOrder"
                       id="desc"
                       value="desc"

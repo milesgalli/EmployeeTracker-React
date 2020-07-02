@@ -3,6 +3,8 @@ import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBar";
 import employees from "./employee.json";
 import Table from "./components/Table/Table";
+import EmployeeCard from "./components/employeeCard/employeeCard";
+import Wrapper from "./components/Wrapper/wrapper";
 
 class App extends Component {
   state = {
@@ -23,8 +25,24 @@ class App extends Component {
       [name]: value,
     });
 
-
+    this.renderEmployees();
   };
+
+
+    returnEmployeeCard = (employee) => {
+      return (
+        <EmployeeCard
+          key={employee.id}
+          image={employee.imgUrl}
+          firstName={employee.firstName}
+          lastName={employee.lastName}
+          department={employee.department}
+          role={employee.role}
+          location={employee.location}
+        />
+      );
+    };
+
 
   // grab filter info from search bar (pass in event handler)
 
@@ -32,7 +50,6 @@ class App extends Component {
   sortEmployees = () => {
     // sort employees by asending and decesnding order by id.
 
-    let sortSetting = this.state.sortSetting;
 
     this.state.employees.sort((a, b) => {
       let propA;
@@ -61,19 +78,16 @@ class App extends Component {
         return 0;
       }
     });
-  };
-
-
-
-  // search(input) {}
-
-  // pass that processed data to Table
+  }
 
   render() {
     return (
       <section>
-        <SearchBar  />
-        <Table  employeeData={this.state.employees}/>
+        <Wrapper>
+        <SearchBar search={this.state.searchTerm} />
+        <Table employeeData={this.state.employees} />
+        </Wrapper>
+        
       </section>
     );
   }
