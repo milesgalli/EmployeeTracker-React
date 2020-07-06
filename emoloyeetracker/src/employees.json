@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "firstName": "Reid",
+    "lastName": "Hoffman",
+    "department": "Philosophy",
+    "role": "Cheif Fire Figher",
+    "location": "San Franciso"
+
+  },
+  {
+    "id": 2,
+    "firstName": "Ben",
+    "lastName": "Horrowitz",
+    "department": "Engineering",
+    "role": "Senior Architect",
+    "location": "San Franciso"
+   
+  },
+  {
+    "id": 3,
+    "firstName": "Marc ",
+    "lastName": "Andreeson",
+    "department": "Finance",
+    "role": "Advisor",
+    "location": "San Franciso"
+
+  },
+  {
+    "id": 4,
+    "firstName": "Mike ",
+    "lastName": "Maples",
+    "department": "Venture",
+    "role": "VC",
+    "location": "New York"
+
+  },
+  {
+    "id": 5,
+    "firstName": "Jason",
+    "lastName": "Calacanas",
+    "department": "Management",
+    "role": "Operations Manger",
+    "location": "Chicago"
+      },
+  {
+    "id": 6,
+    "firstName": "Jeff",
+    "lastName": "Bezos",
+    "department": "CEO",
+    "role": "CEO",
+    "location": "Washington"
+  },
+  {
+    "id": 7,
+    "firstName": "Lev",
+    "lastName": "Haiba",
+    "department": "Engineering",
+    "role": "UI Engineer",
+    "location": "Perth"
+    
+  },
+  {
+    "id": 8,
+    "firstName": "Anthony",
+    "lastName": "Pomp",
+    "department": "Podcasting",
+    "role": "Podcaster",
+    "location": "New York"
+
+  },
+  {
+    "id": 9,
+    "firstName": "Patrick",
+    "lastName": "Oshag",
+    "department": "investing",
+    "role": "investory",
+    "location": "london"
+    
+  },
+  {
+    "id": 10,
+    "firstName": "Peter",
+    "lastName": "Theil",
+    "department": "Venture",
+    "role": "VC",
+    "location": "San Francisco"
+    
+  }
+]
